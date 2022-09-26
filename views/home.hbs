@@ -1,0 +1,14 @@
+<h1>welcome to payment gateway</h1>
+
+    <form action="/pay" method="POST">
+    <script
+        src="//checkout.stripe.com/v2/checkout.js"
+        class="stripe-button"
+        data-key="{{key}}"
+        data-amount="{{amount}}"
+        data-currency="inr"
+        data-name="Gautam Sharma"
+        data-description="Buy React.js Complete Course"
+        data-locale="auto" >
+        </script>
+    </form>
